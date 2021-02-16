@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrivez-vous</title>
+    <link rel="stylesheet" href="styles/form_style.css">
+</head>
+
+<body>
+    <div id="myForm">
+        <div id="form_one">
+            <form>
+                <h1 id="form_one_title">General Information</h1>
+                <div class="div_inputs">
+                    <select class="select_option" id="title">
+                        <option value="" selected disabled>Title</option>
+                        <option value="Director">Director</option>
+                        <option value="Secretary">Secretary</option>
+                    </select>
+                </div>
+                <div class="div_inputs">
+                    <input type="text" placeholder="First Name" class="name_field">
+                    <input type="text" placeholder="Last Name" class="name_field">
+                </div>
+                <div class="div_inputs">
+                    <select class="select_option" id="position">
+                        <option value="" selected disabled>Position</option>
+                        <option value="Director">Director</option>
+                        <option value="Secretary">Secretary</option>
+                    </select>
+                </div>
+                <div class="div_inputs">
+                    <input type="text"  id="company" placeholder="Company">
+                </div>
+                <div class="div_inputs">
+                    <input type="text" id="business" placeholder="Business Arena">
+                    <select class="select_option" id="employee">
+                        <option value="" selected disabled>Employees</option>
+                        <option value="Director">Director</option>
+                        <option value="Secretary">Secretary</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div id="form_two">
+            <form>
+                <h1 id="form_two_title">Contact Details</h1>
+                <div class="div_inputs">
+                    <input type="text"  id="streetNber" placeholder="Company">
+                </div>
+                <div class="div_inputs">
+                    <input type="text"  id="addition_info" placeholder="Additional Information">
+                </div>
+                <div class="div_inputs">
+                    <input type="text" id="zipCode" placeholder="Zip Code">
+                    <select class="select_option" id="places">
+                        <option value="" selected disabled class="option">Place</option>
+                        <option value="Kin" class="option">Kinshasa</option>
+                        <option value="Goma" class="option">Goma</option>
+                    </select>
+                </div>
+                <div class="div_inputs">
+                    <select class="select_option" id="countries">
+                        <option value="" selected disabled class="option">Country</option>
+                        <option value="DRC" class="option">DRCongo</option>
+                        <option value="US" class="option">United States</option>
+                    </select>
+                </div>
+                <div class="div_inputs">
+                    <input type="email"  id="email" placeholder="Your Email Address">
+                </div>
+                <div class="div_inputs">
+                    <input type="text" placeholder="Code +" id="code">
+                    <input type="text" placeholder="Phone Number" id="telephone">
+                </div>
+                <div class="div_inputs">
+                    <p><input type="radio" id="terms">I do accept the <a href="#" id="link">Terms and Conditions</a> <br> of your site</p>
+                </div>
+                <div class="div_inputs">
+                    <button id="registerBtn">Register Badge</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
