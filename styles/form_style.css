@@ -18,6 +18,11 @@ p{
     color:white;
 }
 
+#myForm{
+    width: 85%;
+    margin: auto;
+}
+
 #form_one{
     background-color: white;
     width: 46%;
