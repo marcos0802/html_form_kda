@@ -41,7 +41,7 @@ p{
 }
 
 #form_one_title{
-    color: #8ca9ce;
+    color: blue;
 }
 
 #form_two_title{
@@ -89,28 +89,28 @@ p{
 }
 
 .name_field::-webkit-input-placeholder {
-    color:#a5a5a5
+    color:  rgb(129, 125, 125);
   }
   
 #company::-webkit-input-placeholder {
-    color:#a5a5a5
+    color:  rgb(129, 125, 125);
   }
 
 #business::-webkit-input-placeholder {
-    color:#a5a5a5
+    color:  rgb(129, 125, 125);
   }
 
  .name_field::-moz-placeholder {
-    color:#a5a5a5
+    color:  rgb(129, 125, 125);
 
  }
 
  #company::-moz-placeholder {
-    color:#a5a5a5
+    color:  rgb(129, 125, 125);
  }
 
  #business::-moz-placeholder {
-    color:#a5a5a5
+    color:  rgb(129, 125, 125);
  }
 
 
@@ -147,7 +147,7 @@ p{
 #streetNber, #email, #addition_info{
     width: 100%;
     border: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
     background-color: inherit;
     font-size: 17px;
     color:  white;
@@ -157,7 +157,7 @@ p{
 #zipCode{
     width: 35%;
     border: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.7);
     background-color: inherit;
     font-size: 17px;
     color:  white;
@@ -168,7 +168,7 @@ p{
 #places{
     width: 55%;
     border: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
     background-color: inherit;
     font-size: 17px;
     color: white;
@@ -180,7 +180,7 @@ p{
 #countries{
     width: 100%;
     border: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
     background-color: inherit;
     font-size: 17px;
     color: white;
@@ -195,7 +195,7 @@ p{
 #code{
     width: 35%;
     border: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.7);
     background-color: inherit;
     font-size: 17px;
     outline: none;
@@ -206,7 +206,7 @@ p{
 #telephone{
     width: 55%;
     border: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.7);
     background-color: inherit;
     font-size: 17px;
     outline: none;
