@@ -16,20 +16,20 @@
                 <h1 id="form_one_title">General Information</h1>
                 <div class="div_inputs">
                     <select class="select_option" id="title">
-                        <option value="" selected disabled>Title</option>
-                        <option value="Director">Director</option>
-                        <option value="Secretary">Secretary</option>
+                        <option value="" selected disabled class="option">Title</option>
+                        <option value="Director" class="option">Director</option>
+                        <option value="Secretary" class="option">Secretary</option>
                     </select>
                 </div>
                 <div class="div_inputs">
-                    <input type="text" placeholder="First Name" class="name_field">
-                    <input type="text" placeholder="Last Name" class="name_field">
+                    <input type="text" placeholder="First Name" id="firstname" class="name_field">
+                    <input type="text" placeholder="Last Name" id="lastname" class="name_field">
                 </div>
                 <div class="div_inputs">
                     <select class="select_option" id="position">
-                        <option value="" selected disabled>Position</option>
-                        <option value="Director">Director</option>
-                        <option value="Secretary">Secretary</option>
+                        <option value="" selected disabled class="option">Position</option>
+                        <option value="Director" class="option">Director</option>
+                        <option value="Secretary" class="option">Secretary</option>
                     </select>
                 </div>
                 <div class="div_inputs">
@@ -38,9 +38,9 @@
                 <div class="div_inputs">
                     <input type="text" id="business" placeholder="Business Arena">
                     <select class="select_option" id="employee">
-                        <option value="" selected disabled>Employees</option>
-                        <option value="Director">Director</option>
-                        <option value="Secretary">Secretary</option>
+                        <option value="" selected disabled class="option">Employees</option>
+                        <option value="Director" class="option">Director</option>
+                        <option value="Secretary" class="option">Secretary</option>
                     </select>
                 </div>
             </form>
@@ -79,6 +79,7 @@
                 <div class="div_inputs">
                     <p><input type="radio" id="terms">I do accept the <a href="#" id="link">Terms and Conditions</a> <br> of your site</p>
                 </div>
+                <br>
                 <div class="div_inputs">
                     <button id="registerBtn">Register Badge</button>
                 </div>

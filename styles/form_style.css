@@ -55,6 +55,7 @@ p{
 .select_option{
     /* border: 0px 0px 0px 1px; */
     border: none;
+    outline: none;
     border-bottom: 1px solid rgb(129, 125, 125);
     background-color: white;
     font-size: 17px;
@@ -69,13 +70,22 @@ p{
 }
 
 .name_field{
-    width: 46%;
     border: none;
+    outline: none;
     border-bottom: 1px solid rgb(129, 125, 125);
     background-color: white;
     font-size: 17px;
     color: #000;
+    box-sizing: border-box;
+    width: 46%;
+}
 
+#firstname{
+    float: left;
+}
+
+#lastname{
+    float: right;
 }
 
 .name_field::-webkit-input-placeholder {
@@ -110,6 +120,8 @@ p{
     border-bottom: 1px solid rgb(129, 125, 125);
     background-color: white;
     font-size: 17px;
+    outline: none;
+    float: left;
 }
 
 #company{
@@ -118,6 +130,7 @@ p{
     border-bottom: 1px solid rgb(129, 125, 125);
     background-color: white;
     font-size: 17px;
+    outline: none;
 }
 
 #employee{
@@ -127,6 +140,8 @@ p{
     background-color: white;
     font-size: 17px;
     color:  rgb(129, 125, 125);
+    outline: none;
+    float: right;
 }
 
 #streetNber, #email, #addition_info{
@@ -136,6 +151,7 @@ p{
     background-color: inherit;
     font-size: 17px;
     color:  white;
+    outline: none;
 }
 
 #zipCode{
@@ -145,6 +161,8 @@ p{
     background-color: inherit;
     font-size: 17px;
     color:  white;
+    outline: none;
+    float: left;
 }
 
 #places{
@@ -154,8 +172,9 @@ p{
     background-color: inherit;
     font-size: 17px;
     color: white;
-    opacity: 0.7;
     font-family: 'Cantarell';
+    outline: none;
+    float: right;
 }
 
 #countries{
@@ -165,8 +184,8 @@ p{
     background-color: inherit;
     font-size: 17px;
     color: white;
-    opacity: 0.7;
     font-family: 'Cantarell';
+    outline: none;
 }
 
 .option{
@@ -179,6 +198,9 @@ p{
     border-bottom: 1px solid rgb(129, 125, 125);
     background-color: inherit;
     font-size: 17px;
+    outline: none;
+    color: white;
+    float: left;
 }
 
 #telephone{
@@ -187,6 +209,9 @@ p{
     border-bottom: 1px solid rgb(129, 125, 125);
     background-color: inherit;
     font-size: 17px;
+    outline: none;
+    color: white;
+    float: right;
 }
 
 #terms{
@@ -200,11 +225,13 @@ p{
 
 #registerBtn{
     border-radius: 30px;
+    border: 0px white solid;
     background-color: white;
     padding: 10px;
     font-size: 15px;
     font-family: 'Cantarell';
     font-weight: 600;
+    outline: none;
 }
 
 ::placeholder {
