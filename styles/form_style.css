@@ -1,6 +1,7 @@
 body{
     padding: 5%;
-    background-color: rgb(134, 202, 230);
+    /* background-color: #8ebae9; */
+    background-image: linear-gradient(to right,#8fb7ea ,#9599e2);
     font-family: 'Cantarell';
     color: gray;
     display: block;
@@ -29,7 +30,7 @@ p{
 }
 
 #form_two{
-    background-color: rgba(71, 71, 182, 0.74);
+    background-color: #4935d4;
     width: 46%;
     height: 500px;
     float: right;
@@ -40,7 +41,7 @@ p{
 }
 
 #form_one_title{
-    color: rgb(13, 142, 228);
+    color: #8ca9ce;
 }
 
 #form_two_title{
@@ -78,28 +79,28 @@ p{
 }
 
 .name_field::-webkit-input-placeholder {
-    color: gray
+    color:#a5a5a5
   }
   
 #company::-webkit-input-placeholder {
-    color: gray
+    color:#a5a5a5
   }
 
 #business::-webkit-input-placeholder {
-    color: gray
+    color:#a5a5a5
   }
 
  .name_field::-moz-placeholder {
-    color: gray;
+    color:#a5a5a5
 
  }
 
  #company::-moz-placeholder {
-    color: gray
+    color:#a5a5a5
  }
 
  #business::-moz-placeholder {
-    color: gray
+    color:#a5a5a5
  }
 
 
