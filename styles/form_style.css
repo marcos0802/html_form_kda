@@ -1,232 +1,137 @@
+
+@font-face{  font-family: 'Montserrat';
+    src: url(fonts/Montserrat/Montserrat-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    padding: 5%;
-    /* background-color: #8ebae9; */
+
     background-image: linear-gradient(to right,#8fb7ea ,#9599e2);
-    font-family: 'Cantarell';
-    color: gray;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+    font-family: 'Montserrat';
+    padding: 5%;
 }
 
 h1{
-    font-size: 25px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-p{
-    color:white;
+#title1{
+    color: rgb(38, 118, 209);
+}
+#title2{
+    color: white;
 }
 
-#myForm{
-    width: 85%;
-    margin: auto;
+#container{
+    display: flex;
+    justify-content: center;
 }
 
-#form_one{
+#general-info{
     background-color: white;
-    width: 46%;
-    height: 500px;
-    float: left;
-    color: #000;
-    border-top-left-radius:     15px;
-    border-bottom-left-radius:  15px;
-    padding: 2%;
+    padding: 50px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
-#form_two{
-    background-color: #4935d4;
-    width: 46%;
-    height: 500px;
-    float: right;
-    border-top-right-radius:    15px;
+#contact-detail{
+    background-color: #5b5bc2;
+    padding: 50px;
     border-bottom-right-radius: 15px;
-    padding: 2%;
-    color: #000;
-}
-
-#form_one_title{
-    color: blue;
-}
-
-#form_two_title{
-    color: rgb(255, 255, 255);
+    border-top-right-radius: 15px;
 }
 
 .div_inputs{
-    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.select_option{
-    /* border: 0px 0px 0px 1px; */
-    border: none;
-    outline: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
-    background-color: white;
-    font-size: 17px;
-    color:  rgb(0, 0, 0);
-    font-family: 'Cantarell';
-    color:  rgb(129, 125, 125);
-}
-
-#title,#position{
-    width: 100%;
-    font-family: 'Cantarell';
+#names{
+    display: flex;
+    justify-content: space-between;
 }
 
 .name_field{
+    width: 47%;
+}
+
+.field{
     border: none;
     outline: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
-    background-color: white;
-    font-size: 17px;
-    color: #000;
-    box-sizing: border-box;
-    width: 46%;
+    border-bottom: 1px solid rgb(182, 177, 177);
+    padding-bottom: 10px;
+    background-color: inherit;
 }
 
-#firstname{
-    float: left;
+.large-field{
+  width: 100%;
 }
 
-#lastname{
-    float: right;
+.select{
+    background-color: inherit;
 }
 
-.name_field::-webkit-input-placeholder {
-    color:  rgb(129, 125, 125);
-  }
-  
-#company::-webkit-input-placeholder {
-    color:  rgb(129, 125, 125);
-  }
-
-#business::-webkit-input-placeholder {
-    color:  rgb(129, 125, 125);
-  }
-
- .name_field::-moz-placeholder {
-    color:  rgb(129, 125, 125);
-
- }
-
- #company::-moz-placeholder {
-    color:  rgb(129, 125, 125);
- }
-
- #business::-moz-placeholder {
-    color:  rgb(129, 125, 125);
- }
-
+#last{
+    display: flex;
+    justify-content: space-between;
+}
 
 #business{
-    width: 55%;
-    border: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
-    background-color: white;
-    font-size: 17px;
-    outline: none;
-    float: left;
-}
-
-#company{
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
-    background-color: white;
-    font-size: 17px;
-    outline: none;
+    width: 57%;
 }
 
 #employee{
-    width: 35%;
-    border: none;
-    border-bottom: 1px solid rgb(129, 125, 125);
-    background-color: white;
-    font-size: 17px;
-    color:  rgb(129, 125, 125);
-    outline: none;
-    float: right;
-}
-
-#streetNber, #email, #addition_info{
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-    background-color: inherit;
-    font-size: 17px;
-    color:  white;
-    outline: none;
-}
-
-#zipCode{
-    width: 35%;
-    border: none;
-    border-bottom: 1px solid  rgba(255, 255, 255, 0.7);
-    background-color: inherit;
-    font-size: 17px;
-    color:  white;
-    outline: none;
-    float: left;
-}
-
-#places{
-    width: 55%;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-    background-color: inherit;
-    font-size: 17px;
-    color: white;
-    font-family: 'Cantarell';
-    outline: none;
-    float: right;
-}
-
-#countries{
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-    background-color: inherit;
-    font-size: 17px;
-    color: white;
-    font-family: 'Cantarell';
-    outline: none;
+    width: 37%;
 }
 
 .option{
-    color: black;
+    color:  rgb(70, 68, 68);
+}
+
+#cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+#zip{
+    width: 27%;
+}
+
+#places{
+    width: 67%;
+}
+
+#contacts{
+    display: flex;
+    justify-content: space-between;
 }
 
 #code{
-    width: 35%;
-    border: none;
-    border-bottom: 1px solid  rgba(255, 255, 255, 0.7);
-    background-color: inherit;
-    font-size: 17px;
-    outline: none;
-    color: white;
-    float: left;
+    width: 27%;
 }
 
-#telephone{
-    width: 55%;
-    border: none;
-    border-bottom: 1px solid  rgba(255, 255, 255, 0.7);
-    background-color: inherit;
-    font-size: 17px;
-    outline: none;
-    color: white;
-    float: right;
+#phone{
+    width: 67%;
 }
 
-#terms{
-    font-size: 12px;
-}
 
-#link{
-    color: white;
-    font-weight: bold;
-}
+ .placeholder::-moz-placeholder {
+    color:  rgb(70, 68, 68);
+    /* text-shadow: 0.5px 0.5px 0.5px gray; */
+ }
+
+ p{
+     color: white;
+     font-size: 14px;
+ }
+
+ #link{
+     color: white;
+     font-weight: 900;
+ }
 
 #registerBtn{
     border-radius: 30px;
@@ -242,5 +147,6 @@ p{
 ::placeholder {
     color:white;
     opacity: 0.7; 
-    font-family: 'Cantarell';
   }
+
+ 

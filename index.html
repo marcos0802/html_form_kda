@@ -10,82 +10,85 @@
 </head>
 
 <body>
-    <div id="myForm">
-        <div id="form_one">
-            <form>
-                <h1 id="form_one_title">General Information</h1>
+        <form id="container">
+            <div id="general-info">
+                <h1 id="title1">General Information</h1>
+                <br>
                 <div class="div_inputs">
-                    <select class="select_option" id="title">
+                    <select class="select large-field field">
                         <option value="" selected disabled class="option">Title</option>
                         <option value="Director" class="option">Director</option>
                         <option value="Secretary" class="option">Secretary</option>
                     </select>
                 </div>
-                <div class="div_inputs">
-                    <input type="text" placeholder="First Name" id="firstname" class="name_field">
-                    <input type="text" placeholder="Last Name" id="lastname" class="name_field">
+                <div class="div_inputs" id="names">
+                    <input type="text" placeholder="First Name" class="name_field field placeholder">
+                    <input type="text" placeholder="Last Name" class="name_field field placeholder">
                 </div>
                 <div class="div_inputs">
-                    <select class="select_option" id="position">
-                        <option value="" selected disabled class="option">Position</option>
-                        <option value="Director" class="option">Director</option>
-                        <option value="Secretary" class="option">Secretary</option>
+                    <select class="select large-field field">
+                        <option value="" selected disabled class="placeholder">Position</option>
+                        <option value="Director">Senior</option>
+                        <option value="Secretary">Junior</option>
                     </select>
                 </div>
                 <div class="div_inputs">
-                    <input type="text"  id="company" placeholder="Company">
+                    <input type="text" class="large-field field placeholder" placeholder="Company">
                 </div>
-                <div class="div_inputs">
-                    <input type="text" id="business" placeholder="Business Arena">
-                    <select class="select_option" id="employee">
-                        <option value="" selected disabled class="option">Employees</option>
-                        <option value="Director" class="option">Director</option>
-                        <option value="Secretary" class="option">Secretary</option>
+                <div class="div_inputs" id="last">
+                    <input type="text" id="business" class="field placeholder" placeholder="Business Arena">
+                    <select id="employee" class="select field" id="employee">
+                        <option value="" selected disabled class="placeholder">Employees</option>
+                        <option value="Director">Less than 10</option>
+                        <option value="Secretary">Between 10 and 100</option>
                     </select>
                 </div>
-            </form>
-        </div>
-        <div id="form_two">
-            <form>
-                <h1 id="form_two_title">Contact Details</h1>
+            </div>
+
+            <div id="contact-detail">
+                <h1 id="title2">Contact Details</h1>
+                <br>
                 <div class="div_inputs">
-                    <input type="text"  id="streetNber" placeholder="Street + Nr">
+                    <input type="text" class="large-field field" placeholder="Street + Nr">
                 </div>
                 <div class="div_inputs">
-                    <input type="text"  id="addition_info" placeholder="Additional Information">
+                    <input type="text" class="large-field field" placeholder="Additional Information">
                 </div>
-                <div class="div_inputs">
-                    <input type="text" id="zipCode" placeholder="Zip Code">
-                    <select class="select_option" id="places">
+                <div class="div_inputs" id="cont">
+                    <input type="text" class="field" id="zip" placeholder="Zip Code">
+                    <select class="select field" id="places">
                         <option value="" selected disabled class="option">Place</option>
                         <option value="Kin" class="option">Kinshasa</option>
                         <option value="Goma" class="option">Goma</option>
                     </select>
                 </div>
                 <div class="div_inputs">
-                    <select class="select_option" id="countries">
+                    <select class="select large-field field">
                         <option value="" selected disabled class="option">Country</option>
                         <option value="DRC" class="option">DRCongo</option>
                         <option value="US" class="option">United States</option>
                     </select>
                 </div>
-                <div class="div_inputs">
-                    <input type="email"  id="email" placeholder="Your Email Address">
+                <div class="div_inputs" id="contacts">
+                    <input type="text" class="field" id="code" placeholder="Code +">
+                    <input type="text" class="field" id="phone" placeholder="Phone Number">
                 </div>
                 <div class="div_inputs">
-                    <input type="text" placeholder="Code +" id="code">
-                    <input type="text" placeholder="Phone Number" id="telephone">
+                    <input type="email" class="large-field field" placeholder="Your Email Address">
                 </div>
                 <div class="div_inputs">
-                    <p><input type="radio" id="terms">I do accept the <a href="#" id="link">Terms and Conditions</a> <br> of your site</p>
+                    <p><input type="radio" id="terms"> I do accept the <a href="#" id="link">Terms and Conditions</a>
+                        <br> of
+                        your site
+                    </p>
                 </div>
                 <br>
                 <div class="div_inputs">
                     <button id="registerBtn">Register Badge</button>
                 </div>
-            </form>
-        </div>
-    </div>
+            </div>
+
+    </form>
 </body>
 
 </html>
